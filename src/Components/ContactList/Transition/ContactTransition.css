@@ -1,0 +1,21 @@
+.contact-item-fade-enter {
+  opacity: 0;
+  transform: translateX(-100%);
+}
+
+.contact-item-fade-enter-active {
+  opacity: 1;
+  transform: translateX(0);
+  transition: all 250ms linear;
+}
+
+.contact-item-fade-exit {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.contact-item-fade-exit-active {
+  opacity: 0;
+  transform: translateX(-100%);
+  transition: all 250ms linear;
+}

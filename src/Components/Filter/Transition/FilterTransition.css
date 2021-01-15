@@ -1,0 +1,21 @@
+.filter-transition-enter {
+  opacity: 0;
+  transform: scale(0.1);
+}
+
+.filter-transition-enter-active {
+  opacity: 1;
+  transform: scale(1);
+  transition: all 250ms linear;
+}
+
+.filter-transition-exit {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.filter-transition-exit-active {
+  opacity: 0;
+  transform: scale(0.1);
+  transition: all 250ms linear;
+}

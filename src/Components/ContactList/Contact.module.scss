@@ -1,0 +1,55 @@
+.contactList {
+  margin: 30px 0;
+  padding: 0;
+  list-style: none;
+}
+.contactListItems {
+  margin: 0 auto;
+  margin-bottom: 5px;
+  padding: 0;
+  width: 530px;
+  height: 70px;
+  text-align: center;
+  box-shadow: 0 0 5px rgb(139, 139, 139);
+  border: 1px solid rgb(204, 203, 203);
+  border-radius: 10pxs;
+}
+
+.contactListItems:last-child {
+  margin-bottom: 0;
+}
+
+.contactInfo {
+  margin: 20px 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.contactInfoParagraph {
+  margin: 0;
+  font-size: 18px;
+}
+
+.span {
+  margin-left: 70px;
+}
+
+.contactInfoButton {
+  margin: 0;
+  padding: 0;
+  width: 80px;
+  height: 30px;
+  color: #e4e1e1;
+  background-color: #fc0606;
+  border: 1px solid rgb(255, 0, 0);
+  border-radius: 5px;
+  outline: none;
+}
+
+.contactInfoButton:hover {
+  background-color: rgb(248, 47, 47);
+  color: #000000;
+  font-size: 15px;
+  font-style: italic;
+}

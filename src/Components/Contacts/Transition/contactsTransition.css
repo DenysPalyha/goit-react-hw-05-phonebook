@@ -1,0 +1,8 @@
+.titel-Logo-appear {
+  transform: translateX(-100%);
+}
+
+.titel-Logo-appear-active {
+  transform: translateX(0);
+  transition: all 500ms linear;
+}
